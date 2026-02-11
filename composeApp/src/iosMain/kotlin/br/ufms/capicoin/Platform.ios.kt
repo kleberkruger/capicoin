@@ -1,8 +1,8 @@
-package br.ufms.capicoin
+package com.htetz.kmp_agp9
 
 import platform.UIKit.UIDevice
 
-class IOSPlatform : Platform {
+class IOSPlatform: Platform {
     override val name: String = UIDevice.currentDevice.systemName() + " " + UIDevice.currentDevice.systemVersion
 }
 
